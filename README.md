@@ -4,24 +4,24 @@ This repository contains the official code and test set for **Bolbosh**, a multi
 
 ## Authors
 
-*   **Tajamul Ashraf**$^{1,3,*}$
-*   **Burhaan Rasheed Zargar**$^{3,\dagger}$
-*   **Saeed Abdul Muizz**$^{3,\dagger}$
-*   **Ifrah Mushtaq**$^{2}$
-*   **Nazima Mehdi**$^{2}$
-*   **Iqra Altaf Gillani**$^{3}$
-*   **Aadil Amin Kak**$^{2}$
-*   **Janibul Bashir**$^{3}$
+*   **[Tajamul Ashraf](https://github.com/Tajamul21)**<sup>1,3,\*</sup>
+*   **[Burhaan Rasheed Zargar](https://github.com/BurhaanRasheedZargar)**<sup>3,†</sup>
+*   **[Saeed Abdul Muizz](https://github.com/abdulmuizz0903)**<sup>3,†</sup>
+*   **Ifrah Mushtaq**<sup>2</sup>
+*   **Nazima Mehdi**<sup>2</sup>
+*   **Iqra Altaf Gillani**<sup>3</sup>
+*   **Aadil Amin Kak**<sup>2</sup>
+*   **[Janibul Bashir](https://github.com/janibbashir)**<sup>3</sup>
 
 <small>
-$^1$ King Abdullah University of Science and Technology (KAUST) <br>
-$^2$ Department of Linguistics, University of Kashmir <br>
-$^3$ Gaash Lab, National Institute of Technology Srinagar <br>
-$^*$ Corresponding Author <br>
-$^\dagger$ Equal Contribution <br>
+<sup>1</sup> King Abdullah University of Science and Technology (KAUST) <br>
+<sup>2</sup> Department of Linguistics, University of Kashmir <br>
+<sup>3</sup> Gaash Lab, National Institute of Technology Srinagar <br>
+<sup>*</sup> Corresponding Author <br>
+<sup>†</sup> Equal Contribution <br>
 </small>
 
-📧 **Contact:** gaash@nitsri.ac.in
+**Contact:** gaash@nitsri.ac.in
 
 ---
 
