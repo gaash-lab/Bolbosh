@@ -3,8 +3,25 @@
 This repository contains the official code and test set for **Bolbosh**, a multi-speaker text-to-speech (TTS) system for the Kashmiri language (Persio-Arabic script). Bolbosh adapts the [Matcha-TTS](https://github.com/shivammehta25/Matcha-TTS) framework — a non-autoregressive, conditional flow matching (CFM) based model — to synthesize natural-sounding Kashmiri speech from text. To the best of our knowledge, this is among the first neural TTS systems for Kashmiri, a low-resource language spoken in the Kashmir region.
 
 ## Authors
-- **Abdul Muizz** - [abdulmuizz0903](https://github.com/abdulmuizz0903)
-- **Burhaan Rasheed Zargar** - [BurhaanRasheedZargar](https://github.com/BurhaanRasheedZargar)
+
+*   **Tajamul Ashraf**$^{1,3,*}$
+*   **Burhaan Rasheed Zargar**$^{3,\dagger}$
+*   **Saeed Abdul Muizz**$^{3,\dagger}$
+*   **Ifrah Mushtaq**$^{2}$
+*   **Nazima Mehdi**$^{2}$
+*   **Iqra Altaf Gillani**$^{3}$
+*   **Aadil Amin Kak**$^{2}$
+*   **Janibul Bashir**$^{3}$
+
+<small>
+$^1$ King Abdullah University of Science and Technology (KAUST) <br>
+$^2$ Department of Linguistics, University of Kashmir <br>
+$^3$ Gaash Lab, National Institute of Technology Srinagar <br>
+$^*$ Corresponding Author <br>
+$^\dagger$ Equal Contribution <br>
+</small>
+
+📧 **Contact:** gaash@nitsri.ac.in
 
 ---
 
