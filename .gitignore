@@ -173,7 +173,7 @@ diff_spk_samples/
 eval-combine/
 eval-logs/*
 ifrah_samples*/
-KashmiriNormalizer/.git
+KashmiriNormalizer/
 /logs/
 MOS_Samples/
 SampleOutput*/

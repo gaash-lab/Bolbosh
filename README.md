@@ -2,6 +2,10 @@
 
 This repository contains the official code and test set for **Bolbosh**, a multi-speaker text-to-speech (TTS) system for the Kashmiri language (Persio-Arabic script). Bolbosh adapts the [Matcha-TTS](https://github.com/shivammehta25/Matcha-TTS) framework — a non-autoregressive, conditional flow matching (CFM) based model — to synthesize natural-sounding Kashmiri speech from text. To the best of our knowledge, this is among the first neural TTS systems for Kashmiri, a low-resource language spoken in the Kashmir region.
 
+## Authors
+- **Abdul Muizz** - [abdulmuizz0903](https://github.com/abdulmuizz0903)
+- **Burhaan Rasheed Zargar** - [BurhaanRasheedZargar](https://github.com/BurhaanRasheedZargar)
+
 ---
 
 ## Highlights
@@ -77,7 +81,7 @@ Bolbosh is built on the Matcha-TTS architecture with the following key component
 ### Modifications for Kashmiri
 
 1. **No phonemizer**: Text processing operates at the character level using Kashmiri (Persio-Arabic) symbols directly, bypassing the eSpeak-based phonemizer used in the original Matcha-TTS.
-2. **Custom normalizer**: A dedicated KashmiriNormalizer (bundled in `KashmiriNormalizer/`) handles Unicode canonicalization, diacritic preservation, Kashmiri-specific orthographic rules (e.g., Plat Ye), and digit-to-word expansion.
+2. **Custom normalizer**: A dedicated [KashmiriNormalizer](https://github.com/abdulmuizz0903/KashmiriNormalizer) handles Unicode canonicalization, diacritic preservation, Kashmiri-specific orthographic rules (e.g., Plat Ye), and digit-to-word expansion.
 3. **Extended symbol set**: The vocabulary includes ~90 Kashmiri-specific characters including Arabic letters, Kashmiri extensions (ٹ, پ, چ, ڈ, ک, گ, ھ, ہ, ی, ۍ, ے, etc.), and diacritics (َ ُ ِ ٔ ٕ ٖ ٗ ٰ).
 4. **Transfer learning**: The model is fine-tuned from an English VCTK multi-speaker checkpoint, adapting the embeddings and representations to Kashmiri.
 
@@ -247,7 +251,7 @@ The `testset_bolbosh/` directory contains the complete test set:
 
 ## Acknowledgements
 
-This work builds upon the [Matcha-TTS](https://github.com/shivammehta25/Matcha-TTS) framework by Mehta et al. and uses the [HiFi-GAN](https://github.com/jik876/hifi-gan) vocoder. The Kashmiri text normalization pipeline is bundled as a local package in `KashmiriNormalizer/`.
+This work builds upon the [Matcha-TTS](https://github.com/shivammehta25/Matcha-TTS) framework by Mehta et al. and uses the [HiFi-GAN](https://github.com/jik876/hifi-gan) vocoder. The Kashmiri text normalization pipeline is provided by [KashmiriNormalizer](https://github.com/abdulmuizz0903/KashmiriNormalizer).
 
 ---
 

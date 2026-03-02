@@ -45,5 +45,5 @@ gradio==3.43.2
 gdown
 wget
 seaborn
-./KashmiriNormalizer
+git+https://github.com/abdulmuizz0903/KashmiriNormalizer
 jiwer
